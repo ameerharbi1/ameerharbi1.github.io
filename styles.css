@@ -925,11 +925,14 @@ h2.services-title {
     position: relative;
     position: -webkit-relative;
     width: 100%;
-    animation: none;
+    height: 0;
+    animation: 0.5s linear 0.2s forwards slideoutphone;
+    border: none;
     /* animation: 0.5s linear 2.5s forwards slideoutphone; */
   }
   .side-bar-big3 {
     flex-direction: row;
+    animation: 0.5s linear 0.9s forwards headfadein;
   }
   .side-bar-logo-menu,
   .side-bar-icons {
