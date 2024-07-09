@@ -911,6 +911,9 @@ h2.services-title {
     width: 100%;
     overflow-x: clip;
   }
+  .main-cont {
+    overflow: visible;
+  }
   .main-cont header {
     animation: 0.5s linear 1s forwards headGrowphone;
   }
