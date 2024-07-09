@@ -912,8 +912,7 @@ h2.services-title {
   .main-cont {
     width: 100%;
     flex-direction: column;
-    overflow: clip;
-    /* overflow-y: hidden; */
+    overflow: relative;
   }
 
   .main-cont header {
