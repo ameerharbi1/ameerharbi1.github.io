@@ -917,7 +917,7 @@ h2.services-title {
 
     .main-cont header {
     position: relative;
-    animation: 0.7s linear 1.6s forwards headGrowphone;
+    animation: 0.7s linear 0.4s forwards headGrowphone;
   }
 
   .side-bar {
