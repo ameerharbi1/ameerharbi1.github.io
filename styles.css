@@ -907,8 +907,7 @@ h2.services-title {
   height: 273.92px;
 }
 @media screen and (max-width: 768px) {
-  .main-content,
-  .main-cont {
+  .main-content {
     width: 100%;
     overflow: clip;
   }
