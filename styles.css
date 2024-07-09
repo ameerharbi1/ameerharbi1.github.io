@@ -915,9 +915,9 @@ h2.services-title {
     overflow: relative;
   }
 
-  .main-cont header {
+    .main-cont header {
     position: relative;
-    animation: 0.7s linear 1s forwards headGrowphone;
+    animation: 0.7s linear 1.6s forwards headGrowphone;
   }
 
   .side-bar {
@@ -931,7 +931,7 @@ h2.services-title {
   }
   .side-bar-big3 {
     flex-direction: row;
-    animation: 0.5s linear 0.9s forwards headfadein;
+    animation: 0.7s linear 1.1s forwards headfadein;
   }
   .side-bar-logo-menu,
   .side-bar-icons {
@@ -964,8 +964,7 @@ h2.services-title {
   }
   .hero {
     flex-direction: column;
-    animation: 3s linear 2s forwards show-hero;
-
+    animation: 3s linear 2.5s forwards show-hero;
   }
   .hero .left-hero {
     width: 100%;
