@@ -918,7 +918,9 @@ h2.services-title {
     animation: 0.5s linear 1s forwards headGrowphone;
   }
   .side-bar {
-    animation: 0.5s linear 2.5s forwards slideoutphone;
+/*     animation: 0.5s linear 2.5s forwards slideoutphone; */
+    animation: none;
+    width: 50px;
   }
   /* .side-bar-logo-menu img {
     width: 50px;
