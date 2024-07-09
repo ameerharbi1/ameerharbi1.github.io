@@ -964,6 +964,8 @@ h2.services-title {
   }
   .hero {
     flex-direction: column;
+    animation: 3s linear 2s forwards show-hero;
+
   }
   .hero .left-hero {
     width: 100%;
