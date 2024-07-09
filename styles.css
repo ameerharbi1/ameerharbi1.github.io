@@ -909,10 +909,10 @@ h2.services-title {
 @media screen and (max-width: 768px) {
   .main-content {
     width: 100%;
-    overflow-x: clip;
+    overflow: hidden;
   }
   .main-cont {
-    overflow: visible;
+    overflow: clip;
   }
   .main-cont header {
     animation: 0.5s linear 1s forwards headGrowphone;
