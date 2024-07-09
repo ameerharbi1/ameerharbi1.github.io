@@ -208,6 +208,7 @@ h6 {
   background-color: black;
   border-bottom: 1px solid rgb(23, 23, 23);
 }
+
 .hero {
   display: flex;
   width: 100%;
@@ -785,6 +786,14 @@ h2.services-title {
     width: 70px;
   }
 }
+@keyframes slideoutphone {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 50px;
+  }
+}
 
 @keyframes sidefadein {
   0% {
@@ -801,6 +810,14 @@ h2.services-title {
   }
   100% {
     height: 70px;
+  }
+}
+@keyframes headGrowphone {
+  0% {
+    height: 10px;
+  }
+  100% {
+    height: 50px;
   }
 }
 
@@ -883,5 +900,154 @@ h2.services-title {
   }
   100% {
     transform: rotate(-360deg);
+  }
+}
+.figma-process embed {
+  height: 273.92px;
+}
+@media screen and (max-width: 768px) {
+  .main-content,
+  .main-cont {
+    width: 100%;
+    overflow: clip;
+  }
+  .main-cont header {
+    animation: 0.5s linear 1s forwards headGrowphone;
+  }
+  .side-bar {
+    animation: 0.5s linear 2.5s forwards slideoutphone;
+  }
+  /* .side-bar-logo-menu img {
+    width: 50px;
+  } */
+  .nav ul {
+    font-size: 10px;
+    gap: 1rem;
+    padding: 0;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero .left-hero {
+    width: 100%;
+    padding: 10px;
+    gap: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  #filters {
+    height: 80px;
+  }
+  .left-hero #text1,
+  .left-hero #text2 {
+    /* transform: translatex(-50%); */
+    /* width: 50%; */
+    /* left: 0;
+    right: 0; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 100%; */
+    top: 20%;
+    left: 50%;
+    margin-left: -50%;
+    font-size: 40px;
+    text-align: center;
+  }
+  .hero .left-hero p {
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
+    /* word-wrap: break-word; */
+  }
+  .right-hero {
+    width: 100%;
+    height: 30vh;
+  }
+  .hero-2 {
+    width: 100%;
+    height: 20vh;
+  }
+  .logos {
+    gap: 1rem;
+    animation: 10s slides linear infinite alternate running, 3s view 4s forwards;
+  }
+  .logos img {
+    width: 100%;
+    height: 90px;
+  }
+  .services {
+    padding-top: 2rem;
+    /* overflow: hidden; */
+    height: auto;
+  }
+  .services-cont {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .services-cont .arrow {
+    top: 0;
+    left: 30px;
+  }
+  .services-cont .arrow span {
+    width: 5px;
+    height: 5px;
+  }
+  .services-cont h2 {
+    font-size: 18px;
+  }
+  .services-cont p {
+    font-size: 14px;
+  }
+  .figma,
+  .design,
+  .dev {
+    padding: 20px;
+  }
+  .process-cont {
+    flex-direction: column;
+  }
+  .figma-process,
+  .fromto,
+  .design-process {
+    width: 100%;
+    flex-basis: 100%;
+  }
+  .fromfigma .arrow {
+    transform: rotate(-135deg);
+  }
+  .todesign .arrow {
+    transform: rotate(45deg);
+  }
+  .figma-process {
+    position: relative;
+  }
+  .figma-process embed {
+    width: 100%;
+    height: 100%;
+  }
+  .about {
+    flex-direction: column;
+    padding-bottom: 3rem;
+    gap: 0;
+  }
+  .info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  .projects {
+    width: 100%;
+    align-items: center;
+  }
+  .project {
+    grid-column-gap: 3rem;
+  }
+  .project img {
+    width: 140px;
+    height: 70px;
+  }
+  .contact {
+    padding-bottom: 6rem;
   }
 }
