@@ -409,7 +409,7 @@ h2.services-title {
   left: 5%;
   transform: translate(-50%, -50%);
   transform: rotate(230deg);
-  cursor: pointer;
+/*   cursor: pointer; */
 }
 
 .design .arrow span {
@@ -455,7 +455,7 @@ h2.services-title {
   left: 5%;
   transform: translate(-50%, -50%);
   transform: rotate(230deg);
-  cursor: pointer;
+/*   cursor: pointer; */
 }
 
 .dev .arrow span {
@@ -574,7 +574,7 @@ h2.services-title {
 }
 .fromfigma .arrow {
   transform: rotate(90deg);
-  cursor: pointer;
+/*   cursor: pointer; */
 }
 
 .fromfigma .arrow span {
@@ -615,7 +615,7 @@ h2.services-title {
   left: 5%; */
   /* transform: translate(-50%, -50%); */
   transform: rotate(-90deg);
-  cursor: pointer;
+/*   cursor: pointer; */
 }
 
 .todesign .arrow span {
@@ -684,7 +684,7 @@ h2.services-title {
   left: 80px;
   transform: translate(-50%, -50%);
   transform: rotate(-90deg);
-  cursor: pointer;
+/*   cursor: pointer; */
 }
 
 .info .arrow span {
