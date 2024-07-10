@@ -409,7 +409,7 @@ h2.services-title {
   left: 5%;
   transform: translate(-50%, -50%);
   transform: rotate(230deg);
-/*   cursor: pointer; */
+  cursor: pointer;
 }
 
 .design .arrow span {
@@ -455,7 +455,7 @@ h2.services-title {
   left: 5%;
   transform: translate(-50%, -50%);
   transform: rotate(230deg);
-/*   cursor: pointer; */
+  cursor: pointer;
 }
 
 .dev .arrow span {
@@ -574,7 +574,7 @@ h2.services-title {
 }
 .fromfigma .arrow {
   transform: rotate(90deg);
-/*   cursor: pointer; */
+  cursor: pointer;
 }
 
 .fromfigma .arrow span {
@@ -615,7 +615,7 @@ h2.services-title {
   left: 5%; */
   /* transform: translate(-50%, -50%); */
   transform: rotate(-90deg);
-/*   cursor: pointer; */
+  cursor: pointer;
 }
 
 .todesign .arrow span {
@@ -684,7 +684,7 @@ h2.services-title {
   left: 80px;
   transform: translate(-50%, -50%);
   transform: rotate(-90deg);
-/*   cursor: pointer; */
+  cursor: pointer;
 }
 
 .info .arrow span {
@@ -961,13 +961,20 @@ h2.services-title {
 .figma-process embed {
   height: 273.92px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1670px) {
+  .left-hero #text1,
+  .left-hero #text2 {
+    top: 35%;
+    font-size: 70px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 1481px) and (min-width: 1101px) {
   .main-content,
   .main-cont {
     width: 100%;
     flex-direction: column;
     overflow: relative;
-    /* overflow-y: hidden; */
   }
 
   .main-cont header {
@@ -984,7 +991,6 @@ h2.services-title {
     height: 0;
     animation: 0.7s linear 0.4s forwards slideoutphone;
     border: none;
-    /* animation: 0.5s linear 2.5s forwards slideoutphone; */
   }
   .side-bar-big3 {
     flex-direction: row;
@@ -1011,9 +1017,72 @@ h2.services-title {
   .side-bar-icons i {
     font-size: 24px;
   }
-  /* .side-bar-logo-menu img {
-    width: 50px;
-  } */
+  .nav ul {
+    font-size: 10px;
+    gap: 1rem;
+    padding: 0;
+  }
+  .login-box {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1338px) and (min-width: 1101px) {
+  .left-hero #text1,
+  .left-hero #text2 {
+    top: 35%;
+    font-size: 60px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .main-content,
+  .main-cont {
+    width: 100%;
+    flex-direction: column;
+    overflow: relative;
+  }
+
+  .main-cont header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    animation: 0.7s linear 0.4s forwards headGrowphone;
+  }
+
+  .side-bar {
+    position: relative;
+    position: -webkit-relative;
+    width: 100%;
+    height: 0;
+    animation: 0.7s linear 0.4s forwards slideoutphone;
+    border: none;
+  }
+  .side-bar-big3 {
+    flex-direction: row;
+    animation: 0.7s linear 1.1s forwards headfadein;
+  }
+  .side-bar-logo-menu,
+  .side-bar-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 20%;
+    flex-direction: row;
+  }
+  .side-bar-text {
+    height: auto;
+    width: 60%;
+  }
+  .side-bar-text h1 {
+    transform: rotate(0deg);
+
+    font-size: 14px;
+  }
+  .side-bar-icons i {
+    font-size: 24px;
+  }
   .nav ul {
     font-size: 10px;
     gap: 1rem;
@@ -1036,13 +1105,6 @@ h2.services-title {
   }
   .left-hero #text1,
   .left-hero #text2 {
-    /* transform: translatex(-50%); */
-    /* width: 50%; */
-    /* left: 0;
-    right: 0; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* width: 100%; */
     top: 10%;
     left: 50%;
     margin-left: -50%;
@@ -1053,7 +1115,6 @@ h2.services-title {
     font-size: 14px;
     width: 90%;
     text-align: center;
-    /* word-wrap: break-word; */
   }
   .left-hero button {
     margin-bottom: 30px;
@@ -1077,7 +1138,6 @@ h2.services-title {
   }
   .services {
     padding-top: 4rem;
-    /* overflow: hidden; */
     height: auto;
   }
   .services-cont {
@@ -1186,9 +1246,7 @@ h2.services-title {
     position: absolute;
     bottom: -50px;
     left: 50%;
-    /* transform: translate(-50%, -50%); */
     transform: rotate(0deg);
-    /* cursor: pointer; */
   }
 
   .info .arrow span {
@@ -1197,7 +1255,6 @@ h2.services-title {
     height: 10px;
     border-bottom: 2px solid #03e9f4;
     border-right: 2px solid #03e9f4;
-    /* transform: rotate(45deg); */
     margin: -10px;
     animation: animate 2s infinite;
   }
