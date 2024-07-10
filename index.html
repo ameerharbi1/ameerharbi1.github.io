@@ -57,7 +57,8 @@
               <li class="cool-link"><a onClick="document.getElementById('home').scrollIntoView({ behavior: 'smooth' });">Home</a></li>
               <li class="cool-link"><a onClick="document.getElementById('services').scrollIntoView({ behavior: 'smooth' });">Services</a></li>
               <li class="cool-link"><a onClick="document.getElementById('info').scrollIntoView({ behavior: 'smooth' });">Information</a></li>
-              <li class="cool-link"><a onClick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">Contact</a></li>
+              <li class="cool-link"><a onClick=" window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
+                ">Contact</a></li>
             </ul>
           </nav>
         </header>
@@ -90,7 +91,6 @@
             <div class="right-hero">
               <video
                 src="/5495892-sd_540_960_30fps.mp4"
-                playsinline
                 muted
                 autoplay
                 loop
