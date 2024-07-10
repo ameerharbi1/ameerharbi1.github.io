@@ -1076,12 +1076,12 @@ h2.services-title {
     height: 90px;
   }
   .services {
-    padding-top: 2rem;
+    padding-top: 4rem;
     /* overflow: hidden; */
     height: auto;
   }
   .services-cont {
-    padding: 40px;
+    padding: 0px 40px 40px 40px;
     flex-direction: column;
     gap: 1.5rem;
   }
