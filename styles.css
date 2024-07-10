@@ -1166,7 +1166,7 @@ h2.services-title {
     flex-direction: column;
     padding-block: 0;
     padding-inline: 40px;
-    /* padding-bottom: 6rem; */
+    padding-bottom: 3rem;
   }
   .form-cont {
     width: 95%;
